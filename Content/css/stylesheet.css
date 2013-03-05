@@ -1,0 +1,52 @@
+body {
+	font: 13px fantasy;
+}
+header{
+	margin:0 auto;
+}
+footer{
+	padding:10px;
+	text-align:right;
+}
+.content{
+	padding: 30px;
+	font-size: 2em;		
+}
+.custom {
+	background-color: rgb(163, 163, 163);	
+}
+.custom.customtop {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.custom.custombottom{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.container.ptop{
+	padding-top: 15px;
+}
+.picInfo {
+	height: 300px;		
+}
+.imgpadding{
+	padding:60px 0 0 30px;
+}
+.Custom {
+	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+	width:50%;
+	float:left;
+}
+.info{
+	height: 240px;	
+	padding-top:60px;
+}
+
+.infoPadding {
+	padding: 100px 0 0 0;	
+}
+.nospace{
+	margin-left:0px; !important
+}
