@@ -27,26 +27,24 @@ footer{
 	padding-top: 15px;
 }
 .picInfo {
-	height: 300px;		
+	padding: 30px 0;		
 }
 .imgpadding{
-	padding:60px 0 0 30px;
+	padding:30px 0 0 30px;
+	text-align:center;
 }
 .Custom {
 	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-	width:50%;
-	float:left;
 }
 .info{
-	height: 240px;	
 	padding-top:60px;
 }
 
 .infoPadding {
-	padding: 100px 0 0 0;	
+	padding: 60px 0 0 0;
 }
-.nospace{
-	margin-left:0px; !important
+.center{
+	text-align:center;
 }
