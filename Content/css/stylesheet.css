@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMQFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+
+  
 body {
-	font: 13px fantasy;
+	/*font: 13px fantasy;*/
 }
 header{
 	margin:0 auto;
@@ -28,23 +42,77 @@ footer{
 }
 .picInfo {
 	padding: 30px 0;		
+	font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .imgpadding{
-	padding:30px 0 0 30px;
-	text-align:center;
+	padding: 30px 0 0 30px;
+	text-align:center;	
 }
-.Custom {
+.infoPadding {
+	padding: 30px 0 0 0;
+	
+}
+.bordertop{
+	border-top: 1px dotted #B8B896;
+}
+.CustomShadow {
 	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 .info{
-	padding-top:60px;
-}
-
-.infoPadding {
-	padding: 60px 0 0 0;
+	margin-top:30px;
+	padding-top:30px;
 }
 .center{
 	text-align:center;
+}
+.my-caption{
+	border-bottom: 1px dotted #B8B896;
+	color: #74744E;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 15px;
+	margin-bottom:10px;
+	text-transform: uppercase;
+}
+.my-activity{
+	font-size: 12px;
+	color: #3c3c3c;
+	font-weight: bold;
+}
+.my-venture{
+	color: #7C7C7C;
+	font-size: 12px;
+	font-weight: 400;
+}
+.my-venture > span {
+	float:right;
+}
+#resume-tab{
+	font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+.my-skill{
+	color: #7C7C7C;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top:4px;
+	margin-bottom:0px;
+}
+.my-specifics{
+	color: #848484;
+	font-size: 12px;
+	font-weight: 400;
+}
+i{
+	margin-right:3px;
+}
+.my-skill > span {
+	float: right;
+	font-size: 10px;
+	font-weight: normal;
+	margin: 1px 0 0 0;
+	padding: 0;
 }
