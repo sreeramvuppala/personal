@@ -90,7 +90,7 @@ footer{
 .my-venture > span {
 	float:right;
 }
-#resume-tab, .contactInfo, .infoPadding{
+#resume-tab, .contactInfo, .infoPadding, .resumeattach{
 	font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 }
@@ -144,4 +144,14 @@ font-weight: bold;
 .phoneytext > i{	
 	cursor: pointer;
 	z-index:1000010;
+}
+.resumeattach{
+	float:right;
+	margin: 10px 10px 0 0;
+}
+.resumeattach > a {
+	padding: 10px 15px 10px;
+	line-height: 20px;
+	font-weight: bold;
+	font-size:12px;
 }
