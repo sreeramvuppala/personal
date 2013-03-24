@@ -1,0 +1,57 @@
+.card {    
+    transform-style: preserve-3d;   
+    perspective: 1000;
+    position: relative;
+     width: 100%;
+    height: 100%;  
+}   
+.box {
+    position: absolute;   
+    backface-visibility: hidden;    
+    transition: transform 1s ease-in;
+    width: 100%;
+    height: 100%;           
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+.back {    
+    transform: rotateY(180deg);
+    background: url('../../bootstrap/images/self.jpg');
+    background-size:cover;
+    overflow: hidden;
+}   
+.front {
+    background: url('../../bootstrap/images/buddha.jpg');
+    overflow: hidden;
+    background-size: contain;
+}
+.top {   
+    transform: rotateX(180deg);
+    background: url('../../bootstrap/images/self.jpg');
+    background-size:cover;
+    overflow: hidden;
+}   
+.bottom {
+    background: url('../../bootstrap/images/buddha.jpg');
+    overflow: hidden;
+    background-size: contain;
+}
+.card-container {
+    width: 175px;
+    height: 175px;
+    position:relative;
+    display:inline-block;
+    margin:10px 0px;
+}   
+.card-container:hover .top {      
+    transform: rotateX(0deg);
+}
+.card-container:hover .bottom {          
+    transform: rotateX(-180deg);
+}
+.card-container:hover .back {       
+    transform: rotateY(0deg);
+}
+.card-container:hover .front {          
+    transform: rotateY(-180deg);
+}

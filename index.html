@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link href="Content/css/flipcard.css" rel="stylesheet" type="text/css" />
 <link href="Content/css/stylesheet.css" rel="stylesheet" type="text/css" />
 <link href="Content/css/personal-responsive.css" rel="stylesheet" type="text/css" />
 </head>
@@ -17,7 +18,7 @@
 				<div class="navbar-inner">
 					<nav>
 						<ul class="nav">
-					      <li class="active"><a href="/index.html">Profile</a></li>
+					      <li class="active"><a href="/index.html">Portfolio</a></li>
 					      <li><a href="/resume.html">Resume</a></li>
 					      <li><a href="/contact.html">Contact</a></li>
 					    </ul>
@@ -27,16 +28,93 @@
 			<div class="container-fluid Custom CustomShadow">				
 				<div class="row-fluid">
 					<div class="span12 picInfo Custom">
-						<div class="row-fluid bordertop">
-							<div class="span6 imgpadding">							
-								<img src="bootstrap/images/buddha.jpg" width="200" alt="Pic of Sreeram Vuppala" />							
+						<div class="row-fluid bordertop hidden-phone">
+							<div class="span2">	
+								<div class="card-container hidden-phone">
+								    <div class="card">
+								        <div class="box back"></div>
+								        <div class="box front"></div>
+								    </div>
+								</div>
+								<div class="staticimage hidden-desktop hidden-tablet">
+									<img src="bootstrap/images/buddha.jpg" width="200" alt="Pic of Sreeram Vuppala" />
+								</div>							
 							</div>
-							<div class="span4 infoPadding">
-									<h3 class="center">Sreeram Vuppala</h3>
-									<h4 class="center">Software Engineer</h4>
-									<h6 class="center">Software Architecture and Development, Web Solutions(various development stacks), Enterprise and public facing sites. Visualizations in 2D and 3D on the web. Rich UI. Mobile web and native app development</h5>
+							<div class="span2">	
+								<div class="card-container hidden-phone">
+								    <div class="card">
+								        <div class="box top"></div>
+								        <div class="box bottom"></div>
+								    </div>
+								</div>
+								<div class="staticimage hidden-desktop hidden-tablet">
+									<img src="bootstrap/images/buddha.jpg" width="200" alt="Pic of Sreeram Vuppala" />
+								</div>							
+							</div>
+							<div class="span2">	
+								<div class="card-container hidden-phone">
+								    <div class="card">
+								        <div class="box back"></div>
+								        <div class="box front"></div>
+								    </div>
+								</div>
+								<div class="staticimage hidden-desktop hidden-tablet">
+									<img src="bootstrap/images/buddha.jpg" width="200" alt="Pic of Sreeram Vuppala" />
+								</div>							
+							</div>
+							<div class="span2">	
+								<div class="card-container hidden-phone">
+								    <div class="card">
+								        <div class="box top"></div>
+								        <div class="box bottom"></div>
+								    </div>
+								</div>
+								<div class="staticimage hidden-desktop hidden-tablet">
+									<img src="bootstrap/images/buddha.jpg" width="200" alt="Pic of Sreeram Vuppala" />
+								</div>							
+							</div>
+							<div class="span4">
+									Desktop Web..
 							</div>
 						</div>
+						<div class="row-fluid bordertop">
+							<div class="span2">	
+								<div class="card-container">
+								    <div class="card">
+								        <div class="box top"></div>
+								        <div class="box bottom"></div>
+								    </div>
+								</div>											
+							</div>
+							<div class="span2">	
+								<div class="card-container">
+								    <div class="card">
+								        <div class="box back"></div>
+								        <div class="box front"></div>
+								    </div>
+								</div>													
+							</div>
+							<div class="span2">	
+								<div class="card-container">
+								    <div class="card">
+								        <div class="box top"></div>
+								        <div class="box bottom"></div>
+								    </div>
+								</div>						
+							</div>
+							<div class="span2">	
+								<div class="card-container">
+								    <div class="card">
+								        <div class="box back"></div>
+								        <div class="box front"></div>
+								    </div>
+								</div>							
+							</div>
+							<div class="span4">
+									Mobile Web..
+							</div>
+						</div>
+						
 					</div>
 					
 				</div>	
@@ -50,5 +128,6 @@
 	<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
 	<script src="scripts/jquery.hashchange.min.js" type="text/javascript"></script>
 	<script src="scripts/jquery.easytabs.min.js" type="text/javascript"></script>	
+	<script src="scripts/prefixfree.min.js" type="text/javascript"></script>		
 </body>
 </html>

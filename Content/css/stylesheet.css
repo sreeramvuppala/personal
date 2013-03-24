@@ -155,3 +155,11 @@ font-weight: bold;
 	font-weight: bold;
 	font-size:12px;
 }
+.staticimage{
+	width:175px;
+	height: 175px;
+	position:relative;
+	box-shadow: inset 0px 0px 20px rgba(0,0,0,0.4);
+    border-radius: 15px;
+    overflow:hidden;
+}
