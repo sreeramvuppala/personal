@@ -16,23 +16,25 @@
 }
 .back {    
     transform: rotateY(180deg);
-    background: url('../../bootstrap/images/self.jpg');
-    background-size:cover;
-    overflow: hidden;
+    text-align: center;
 }   
+.back > span{
+	display:inline-block;
+	margin-top:40%;
+}
 .front {
-    background: url('../../bootstrap/images/buddha.jpg');
+    background: url('../../bootstrap/images/images.jpg');
     overflow: hidden;
     background-size: contain;
 }
 .top {   
     transform: rotateX(180deg);
-    background: url('../../bootstrap/images/self.jpg');
+    /*background: url('../../bootstrap/images/self.jpg');
     background-size:cover;
-    overflow: hidden;
+    overflow: hidden;*/
 }   
 .bottom {
-    background: url('../../bootstrap/images/buddha.jpg');
+    background: url('../../bootstrap/images/images.jpg');
     overflow: hidden;
     background-size: contain;
 }

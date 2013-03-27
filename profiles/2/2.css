@@ -1,0 +1,32 @@
+body {
+
+}
+.iphone_center{
+	background-image:url('../../profiles/images/0-iphone4_vertical.png');
+	width:304px;
+	height:600px;
+	background-size:contain;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	
+}
+.iphone_body{
+	background-color:#fff;
+	margin-top:100px;
+	margin-left:20px;
+	margin:108px 27px 0px 27px;
+	height:400px;
+	width:250px;
+	border:#FFFFFF 0px solid;
+	position:absolute;
+	display:block;
+}
+footer{
+	position:relative;
+	text-align:center;
+}
+.outer{
+	width:100%;
+	position:relative;
+}
