@@ -7,7 +7,7 @@
 var personal = personal || {};
 (function(context) {
 	'use strict';
-	var myLatlng = new google.maps.LatLng(41.841,-72.734771);
+	var myLatlng = new google.maps.LatLng(41.841,-76.734771);
 
 	var mapInitOpts = {
 	    mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -25,8 +25,8 @@ var personal = personal || {};
 	
 	var infoBubble2 = new InfoBubble({
 	          map: map,
-	          content: '<div class="phoneytext">My Home&nbsp;&nbsp;<i class="icon-remove" id="remove"></i></div>',
-	          position: new google.maps.LatLng(-35, 151),
+	          content: '<div class="phoneytext">Random spot&nbsp;&nbsp;<i class="icon-remove" id="remove"></i></div>',
+	          position: new google.maps.LatLng(-35, 152),
 	          shadowStyle: 1,
 	          padding: 0,
 	          backgroundColor: 'rgb(57,57,57)',
