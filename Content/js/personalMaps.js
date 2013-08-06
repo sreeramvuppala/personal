@@ -6,7 +6,7 @@
 /* google maps */
 var personal = personal || {};
 (function(context) {
-	use 'strict';
+	'use strict';
 	var myLatlng = new google.maps.LatLng(41.841,-72.734771);
 
 	var mapInitOpts = {
