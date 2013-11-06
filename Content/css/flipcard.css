@@ -16,10 +16,9 @@
 }
 .back {    
     transform: rotateY(180deg);
-    text-align: center;
-    padding-top: 40%;
+    text-align: center;    
 }   
-.back > span{
+.back > div:first-child{
 	display:inline-block;
 	margin-top:40%;
 }
